@@ -1,68 +1,163 @@
-*, body {
-margin: 0;
-padding: 0;
-overflow-x: hidden;
+*,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
 }
 header {
-    background-image: url('imagens/Inst.jpeg'); 
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    z-index: -1;
-    background-attachment: fixed;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-bottom: 30px;
-    
+  background-image: url("imagens/Inst.jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+  background-attachment: fixed;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
 }
-header h1{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    
+header h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #2F4F4F;
 }
 .Maquinas {
-    border-top: 3px solid black;
-    padding-top: 30px;
-    width: 80%;
-    margin: auto;
-    height: 550px;
-    display: flex;
-    
-    
-}
-.Maquinas h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
 
+  border-top: 3px solid black;
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+  height: 550px;
+  display: flex;
+}
+.Maquinas h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #2F4F4F;
   
 }
 .Maquinas p {
-    width: 80%;
-    margin: auto;
-    padding-top: 10px;
-
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 20px 0 20px 0;
+  
 }
 
-.Maquinas .textos-maquinas{
-    width: 60%;
-    
+.Maquinas .textos-maquinas {
+  width: 60%;
+  margin: 20px 0 20px 0;
+  
 }
 .Maquinas .textos-maquinas button {
-    justify-content: center;
+  margin-left: 30%;
+
+  text-align: center;
+  
+  border-radius: 15px;
+  padding: 5px;
+  background-color: cadetblue;
+  color: white;
+}
+.Maquinas .textos-maquinas button:hover{
+  color: cadetblue;
+  background-color: white;
+  transition: 500ms;
+  padding:10px;
+  
+}
+.Maquinas .img-maquinas img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 2px 6px 3px cadetblue;
+}
+
+
+.Instrumentos {
+  padding-top: 10px;
+  border-top: 3px solid black;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.Instrumentos .Containerbloco {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 20px 10px 40px;
+}
+.Instrumentos .blocos {
+  width: 25%;
+  padding-top: 20px;
+  
+  
+}
+.Instrumentos .blocos figcaption{
+  color: #2F4F4F;
+}
+.Instrumentos .blocos figcaption:hover{
+  color:#F08080;
+  transition: 500ms;
+}
+
+.rodape {
+  padding-top: 10px;
+  border-top: 3px solid black;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  overflow: hidden;
+}
+.rodape-1 {
+  width: 30%;
+  padding: 10px 0 10px 0;
+
+}
+.rodape-2 {
+  width: 30%;
+}
+
+.video-container {
+  width: 40%;
+  
+
+}
+
+.video-container video {
+  background-size: cover;
+  width: 120px;
+  height: 150px;
+}
+.rodape h1 p {
     text-align: center;
+    justify-content: center;
     align-items: center;
-    border-radius: 15px;
-    padding: 5px;
-    margin: 10px 0 0 40%;
+    text-decoration: none;
+   
 }
-.Maquinas .img-maquinas img{
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
+.rodape p:hover{
+  
+  color: #0a37b3;
+  
+  transition: 1s;
 }
+.rodape h1{
+    padding-bottom: 20px;
+}
+.rodape p {
+   padding-left: 20px;
+}
+
