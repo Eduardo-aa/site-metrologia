@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  
 }
 header {
   background-image: url("imagens/Inst.jpeg");
@@ -25,10 +24,12 @@ header h1 {
   align-items: center;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  color: #2F4F4F;
+  color: #2f4f4f;
+}
+.Título {
+  visibility: hidden;
 }
 .Maquinas {
-
   border-top: 3px solid black;
   padding-top: 30px;
   width: 80%;
@@ -36,28 +37,30 @@ header h1 {
   height: 550px;
   display: flex;
 }
+.Parágrafo {
+  visibility: hidden;
+}
 .Maquinas h1 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  color: #2F4F4F;
-  
+  color: #2f4f4f;
+  visibility: hidden;
 }
 .Maquinas p {
   width: 80%;
   margin: auto;
   align-items: center;
   text-align: justify;
-  font-weight: 400;
+  color: black;
   font-size: 18px;
   margin: 20px 0 20px 0;
-  
 }
 
 .Maquinas .textos-maquinas {
   width: 60%;
   margin: 20px 0 20px 0;
-  
 }
+/* Retirada do site 
 .Maquinas .textos-maquinas button {
   margin-left: 30%;
 
@@ -75,13 +78,13 @@ header h1 {
   padding:15px;
   
 }
+  */
 .Maquinas .img-maquinas img {
   width: 500px;
   height: 500px;
   border-radius: 50%;
   box-shadow: 2px 6px 3px cadetblue;
 }
-
 
 .Instrumentos {
   padding-top: 30px;
@@ -90,8 +93,8 @@ header h1 {
   margin: auto;
   margin-bottom: 40px;
 }
-.Instrumentos h1{
-  color: #2F4F4F;
+.Instrumentos h1 {
+  color: #2f4f4f;
   font-size: 30px;
   padding-bottom: 10px;
 }
@@ -105,14 +108,12 @@ header h1 {
 .Instrumentos .blocos {
   width: 25%;
   padding-top: 20px;
-  
-  
 }
-.Instrumentos .blocos figcaption{
-  color: #2F4F4F;
+.Instrumentos .blocos figcaption {
+  color: #2f4f4f;
 }
-.Instrumentos .blocos figcaption:hover{
-  color:#F08080;
+.Instrumentos .blocos figcaption:hover {
+  color: #f08080;
   transition: 500ms;
 }
 
@@ -129,41 +130,43 @@ header h1 {
 .rodape-1 {
   width: 30%;
   padding: 10px 0 10px 0;
-
 }
 .rodape-2 {
   width: 30%;
+  padding: 10px 0 10px 0;
 }
 
 .video-container {
   width: 40%;
-  
-
+  padding: 10px 0 10px 0;
 }
 
 .video-container video {
   background-size: cover;
   width: 120px;
   height: 150px;
+  padding: 10px 0 10px 0;
 }
 .rodape h1 p {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-   
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
-.rodape p:hover{
-  
+.rodape p:hover {
   color: #0a37b3;
-  
+
   transition: 1s;
 }
-.rodape h1{
-    padding-bottom: 20px;
-    color: #2F4F4F;
+.rodape h1 {
+  padding-bottom: 20px;
+  color: #2f4f4f;
 }
 .rodape p {
-   padding-left: 20px;
+  padding-left: 20px;
 }
 
+
+.img-maqui, .img-inst{
+  visibility: hidden;
+}

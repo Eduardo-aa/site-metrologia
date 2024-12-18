@@ -1,0 +1,67 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  margin: auto;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-top: 40px;
+}
+.container h1 {
+  padding-bottom: 10px;
+  color: orange;
+}
+.container p{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.img-instrumentos {
+  margin-top: 20px;
+}
+.img-instrumentos img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 2px 6px 3px orange;
+}
+#downloadBtn {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;
+}
+.Título , .Parágrafo, .img-inst, #downloadBtn{
+    visibility: hidden;
+}
+.img-instrumentos #img-micrometro{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 2px 6px 3px green;
+}
+#titulo-micrometro {
+    color: green;
+}
+#downloadBtn-micrometro{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;
+}
