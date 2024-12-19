@@ -34,7 +34,7 @@ header h1 {
   padding-top: 30px;
   width: 80%;
   margin: auto;
-  height: 550px;
+
   display: flex;
 }
 .Parágrafo {
@@ -79,6 +79,11 @@ header h1 {
   
 }
   */
+.Maquinas .img-maquinas {
+  display: flex;
+  width: 40%;
+  margin-right: 10px;
+}
 .Maquinas .img-maquinas img {
   width: 500px;
   height: 500px;
@@ -124,20 +129,20 @@ header h1 {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  height: 300px;
+  
   overflow: hidden;
 }
 .rodape-1 {
-  width: 30%;
+  width: 40%;
   padding: 10px 0 10px 0;
 }
 .rodape-2 {
-  width: 30%;
+  width: 40%;
   padding: 10px 0 10px 0;
 }
 
 .video-container {
-  width: 40%;
+  width: 20%;
   padding: 10px 0 10px 0;
 }
 
@@ -166,7 +171,120 @@ header h1 {
   padding-left: 20px;
 }
 
-
-.img-maqui, .img-inst{
+.img-maqui,
+.img-inst {
   visibility: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: cadetblue;
+}
+@media screen and (max-width: 1400px) {
+  .Maquinas .img-maquinas img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 2px 6px 3px cadetblue;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Maquinas {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Maquinas p {
+    text-align: center;
+    width: 100%;
+  }
+  .Maquinas .textos-maquinas {
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+  .Maquinas .img-maquinas {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .Instrumentos .Containerbloco {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 20px 10px 40px;
+  }
+  .Instrumentos .blocos {
+    width: 25%;
+    padding-top: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .Maquinas .img-maquinas img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 6px 3px cadetblue;
+  }
+  
+
+}
+@media screen and (max-width: 525px) {
+  .Instrumentos .blocos {
+    width: 40%;
+    padding-top: 20px;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .rodape-1{
+    width: 50%;
+    
+  }
+
+  .rodape-2{
+    width: 50%;
+    
+  }
+  .video-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+ 
+  .rodape-1{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rodape-2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .video-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
