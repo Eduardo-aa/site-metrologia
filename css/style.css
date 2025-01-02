@@ -178,7 +178,21 @@ header h1 {
 .rodape p {
   padding-left: 20px;
 }
-
+.licença{
+  border-top: 3px solid #0a37b3;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0 10px 0;
+}
+.licença a{
+  color: black;
+}
+.licença img{
+  width: 20px;
+  padding: 0 10px 0 10px;
+}
 .img-maqui,
 .img-inst {
   visibility: hidden;
